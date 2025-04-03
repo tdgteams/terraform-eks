@@ -11,4 +11,9 @@ variable "aws_region" {
   default = "us-west-1"
   description = "aws region"
 }
+variable cluster_name {
+  type        = string
+  default     = ""
+  description = "description"
+}
 
